@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our team</title>
+  <meta name="description" content="Staff directory">
+
+  <!-- Fonts are optional: remove these three lines to use system fonts (no external requests). -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-head">
+    <h1 id="title">Our team</h1>
+    <p id="intro" class="intro"></p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <label class="search">
+        <span class="visually-hidden">Search by name or role</span>
+        <input id="search" type="search" placeholder="Search by name or role" autocomplete="off">
+      </label>
+      <div id="filters" class="filters" role="group" aria-label="Filter by group"></div>
+    </div>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <ul id="grid" class="grid"></ul>
+  </main>
+
+  <noscript>
+    <p class="status">This page needs JavaScript to show the staff list.</p>
+  </noscript>
+
+  <script src="script.js"></script>
+</body>
+</html>

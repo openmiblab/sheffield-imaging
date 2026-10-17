@@ -1,0 +1,43 @@
+{
+  "title": "Our team",
+  "intro": "Researchers, clinicians and engineers in the group. Select a badge's links to get in touch.",
+  "groups": {
+    "Imaging": "#1f5f7a",
+    "Modelling": "#7a3b5e",
+    "Clinical": "#3f6b3a"
+  },
+  "staff": [
+    {
+      "name": "Dr Alex Example",
+      "role": "Group leader",
+      "group": "Imaging",
+      "email": "a.example@university.ac.uk",
+      "web": "https://example.org/alex",
+      "github": "alex-example",
+      "orcid": "0000-0002-1825-0097",
+      "photo": "photos/alex-example.jpg"
+    },
+    {
+      "name": "Dr Sam Sample",
+      "role": "Postdoctoral researcher",
+      "group": "Modelling",
+      "email": "s.sample@university.ac.uk",
+      "github": "sam-sample",
+      "orcid": "0000-0001-5109-3700"
+    },
+    {
+      "name": "Prof Jo Placeholder",
+      "role": "Consultant radiologist",
+      "group": "Clinical",
+      "email": "j.placeholder@university.ac.uk",
+      "web": "https://example.org/jo"
+    },
+    {
+      "name": "Riley Test",
+      "role": "PhD student",
+      "group": "Imaging",
+      "email": "r.test@university.ac.uk",
+      "github": "riley-test"
+    }
+  ]
+}
